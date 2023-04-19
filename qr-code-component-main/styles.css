@@ -17,10 +17,11 @@ body {
   max-width: 300px;
   background-color: var(--clr-white);
   border-radius: var(--border);
-  padding: 1em;
+  padding: 1.5em;
   justify-content: center;
   align-items: center;
   margin: auto;
+  text-align: center;
 }
 
 .img {
@@ -36,6 +37,8 @@ body {
 }
 
 .paragraph {
+  font-size: 15px;
+  padding: 0 1em;
   color: var(--clr-primary);
   font-weight: 400;
 }
