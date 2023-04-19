@@ -1,0 +1,41 @@
+:root {
+  --clr-light: #d6e2f0;
+  --clr-primary: #7b879d;
+  --clr-dark: #1f3251;
+  --clr-white: white;
+  --border: 1em;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: var(--clr-light);
+  display: grid;
+  height: 100vh;
+}
+
+.container {
+  max-width: 300px;
+  background-color: var(--clr-white);
+  border-radius: var(--border);
+  padding: 1em;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  border-radius: var(--border);
+}
+
+.heading {
+  font-size: 1.5em;
+  color: var(--clr-dark);
+  font-weight: 700;
+}
+
+.paragraph {
+  color: var(--clr-primary);
+  font-weight: 400;
+}
